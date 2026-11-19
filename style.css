@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: khaki;
+    margin: 3px;
+
+}
+
+body {
+    background-color: rgb(39, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden auto;
+
+}
+
+button {
+    background: #496599;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: 5px;
+    width: 250px;
+
+
+}
+
+
+button:hover {
+    background-color: rgb(157, 164, 119);
+}
+
+
+nav div img {
+    
+    margin: -5px;
+    padding: - 4px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: brown;
+}
+
+a:visited {
+    color: white;
+}
+
+div {
+    color: rgb(168, 143, 166);
+}
+
+div>p {
+    color: rgb(143, 133, 143);
+    font-family: monospace;
+}
+
+.mainimg {
+    width: 99vw;
+    border: solid 2px;
+    color: rgb(85, 85, 86);
+    padding: 2px;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+main {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin: 5px;
+    border: 2px solid rgb(204, 188, 188);
+    border-radius: 8px;
+    box-sizing: border-box;
+    
+    
+}
+
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 20px 10px;
+    
+}
+
+.cards {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 7px;
+    min-height: 10vh;
+    
+}
+
+.cards>img {
+    border: 1px solid rgb(95, 92, 92);
+    border-radius: 10px;
+}
+
+.cards h3 {
+    margin: 10px;
+}
+
+.for-acc{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.forget {
+    background-color:#615134d9; 
+    margin: 5px;
+    padding: 5px;
+    border-radius: 23px;
+    
+    
+}
+
+.account {
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 23px;
+    background-color: #496599;
+    
+}
+
+.login {
+    background-image: url(assets/images/image1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px solid rgb(134, 140, 146);
+    text-align: center;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: x-large;
+    box-sizing: border-box;
+    border-radius: 500px;
+    border-width: 5px;
+    margin-top: 40vh;
+
+    
+}
+
+.login .input{
+    padding: 2px;
+    margin:3px;
+}
+.login .input input::placeholder{
+   color: cadetblue;
+   /* background-color: chocolate; */
+}
+#log-btn{
+    width: 150px;
+    margin-left: 90px;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    color: rgb(36, 78, 79);;
+}
+nav {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.copy {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(73, 73, 163);
+    min-height: 10vh;
+    margin: 5px;
+    padding: 3px;
+}
+.fdbk
+{
+    color: wheat;
+};

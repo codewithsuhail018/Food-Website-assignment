@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ORDER PAGE!</h1>
+    <Fieldset>
+        <form action="paymentsuccessful.html" method="get">
+            <div><label for="text">Full Name</label><input type="text" id="text" placeholder="Enter name here" autofocus > </div>
+            <div><label for="number">Phone No.</label>
+                <input type="number" id="number"  maxlength="10" placeholder="Enter number here"  required>
+            </div>
+            <div><label for="">ADDRESS </label><input type="text" placeholder="Enter Address here" required></div>
+            <div><label for="payment">Payment Method</label><select name="payment  " id="payment" >
+                <option value="payment" disabled>payment</option>
+                    <option value="Upi">UPI</option>
+                    <option  value="Cash ">Cash on delivery</option>
+                    <option  value="card"  >Atm card</option>
+                
+                </select></div>
+            
+            <div><label for="number">Amount</label><input type="number" id="number" placeholder=" Enter amount here" required></div>
+            <hr>
+            <div><input type="submit" value="ORDER NOW"></div>
+
+
+        </form>
+    </Fieldset>
+
+<div><button><a href="index.html">back to home</a></button> </div>
+
+</body>
+
+</html>
